@@ -322,17 +322,18 @@ img {
   width: 44px;
   height: 44px;
   cursor: pointer;
+  color: var(--icon-color);
 }
 
 .staff-social-link:hover,
 .staff-social-link:focus {
+  color: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.staff-social-icon:hover,
-.staff-social-icon:focus {
-  fill: var(--white-color);
+.staff-social-icon {
+  fill: currentColor;
 }
 
 .clients-title {
