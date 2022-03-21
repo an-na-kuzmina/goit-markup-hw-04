@@ -561,7 +561,8 @@ img {
 .footer-social-link:focus {
   background-color: var(--accent-color);
 }
-
+/*
 .footer-social-icon {
   fill: currentColor;
 }
+*/
